@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+
+}
+* i{
+   color: aqua;
+}
+body{
+    background: #001;
+    display: flex;
+}
+ .img-box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid beige;
+    flex-shrink: 0;
+ }
+ 
+ 
+ .img-box img{
+    width: 100%;
+ }
+ .profil{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+ }
+ .profil:hover{
+    background: rgba(255, 255, 255, 0.473);
+    border-radius: 25px;
+ }
+ .profil h2{
+    text-transform:capitalize;
+ }
+
+.menu{
+    background: #123;
+    width:60px ;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+    transition:1s;
+}
+.menu:hover{
+    width: 260px;
+}
+ 
+ul{
+    list-style: none;
+    position: relative;
+    height:100%;
+}
+ul li a{
+    display: block;
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    align-items: center;
+}
+ul li a:hover{
+    background: rgba(255, 255, 255, 0.384);
+}
+.sign{
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+    background: red;
+ }
+ ul li a i{
+    font-size: 30px;
+ }
+ .content{
+    background: rgba(255, 255, 255, 0.322);
+    width:100%;
+ 
+ }
+ .title-info{
+    width: 100%;
+    height: 30px;
+    background: rgba(25, 0, 255, 0.596);
+    padding: 10px;
+    display: flex;
+ margin: 10px 10px;
+ justify-content:space-between;
+ align-items:center;
+ border-radius: 20px;
+ margin: 10px 10px;
+ font-weight: 700;
+ }
+ .title-info i{
+    font-size: 40px;
+   color: aqua;
+ 
+ }
+ .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+    gap: 10px;
+ }
+ .data-info{
+    background: #123;
+    height: 150px;
+    flex-basis:150px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    flex-grow: 1;
+    display: flex;
+    justify-content:space-around;
+
+ }
+ .data-info:hover{
+    background: rgba(255, 255, 255, 0.158);
+ }
+ .box .data-info i{
+    font-size: 40px;
+    color: blue;
+ 
+ }
+ .box .data-info p,span{
+    font-size: 20px;
+    display: flex;
+    text-align:center;
+    justify-content: center;
+ 
+ }
+ table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 8px;
+ }
+ td,th{
+background: rgba(187, 25, 179, 0.712);
+height: 40px;
+border-radius: 20px;
+gap: 10px;
+margin: 5px 5px;
+font-weight: 800;
+font-style: italic;
+flex-wrap: wrap;
+
+
+ }
+ th{
+    background: blue;
+    margin: 5px 5px;
+ }
+ td:hover{
+    background: aqua;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+ }
+ .cv{
+   font-size: 20px;
+   text-decoration: none;
+   
+   cursor: pointer;
+   color: white;
+   font-style: italic;
+ }
+ 
+table thead tr th:hover{
+   background:rgba(128, 255, 0, 0.486);
+}
+ .title-info:hover{
+   background: rgba(255, 192, 203, 0.664);
+ }
+ 
